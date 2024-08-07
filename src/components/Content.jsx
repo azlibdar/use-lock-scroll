@@ -1,7 +1,7 @@
 import { useLockScroll } from "react-customs";
 
 function Content() {
-  const [isLocked, setLock] = useLockScroll();
+  const setLock = useLockScroll();
 
   const handleLock = () => {
     setLock(true);
